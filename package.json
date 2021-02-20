@@ -1,0 +1,30 @@
+{
+  "name": "blockchain",
+  "version": "1.0.0",
+  "description": "Sample Blockchain",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "node_1": "nodemon --watch dev -e js dev/networkNode.js 3001",
+    "node_2": "nodemon --watch dev -e js dev/networkNode.js 3002",
+    "node_3": "nodemon --watch dev -e js dev/networkNode.js 3003",
+    "node_4": "nodemon --watch dev -e js dev/networkNode.js 3004",
+    "node_5": "nodemon --watch dev -e js dev/networkNode.js 3005",
+    "node_6": "nodemon --watch dev -e js dev/networkNode.js 3006",
+    "node_7": "nodemon --watch dev -e js dev/networkNode.js 3007",
+    "node_8": "nodemon --watch dev -e js dev/networkNode.js 3008",
+    "node_9": "nodemon --watch dev -e js dev/networkNode.js 3009",
+    "node_10": "nodemon --watch dev -e js dev/networkNode.js 3010",
+    "node_11": "nodemon --watch dev -e js dev/networkNode.js 3011"
+
+  },
+  "author": "Malik Jackson",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7",
+    "sha256": "^0.2.0",
+    "uuid": "^8.3.2"
+  }
+}
